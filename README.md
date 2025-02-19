@@ -5,7 +5,7 @@ Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/roman-numerals-
 
 Home: https://github.com/AA-Turner/roman-numerals
 
-Package license: 0BSD
+Package license: 0BSD OR CC0-1.0
 
 Summary: Manipulate well-formed Roman numerals
 

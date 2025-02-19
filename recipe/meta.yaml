@@ -1,4 +1,4 @@
-{% set version = "1.0.0" %}
+{% set version = "2.0.0" %}
 
 package:
   name: roman-numerals-py
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/r/roman-numerals-py/roman_numerals_py-{{ version }}.tar.gz
-  sha256: 496f5748817b9560de3e33e127f7c511d16b227a44827ffc2967d77b94a10a4d
+  sha256: 2fcf8219331c0ec5a29d5c4c8553f3edd251696496db117f7181d15687e66f5e
 
 build:
   number: 0
@@ -32,7 +32,7 @@ test:
 
 about:
   home: https://github.com/AA-Turner/roman-numerals
-  license: 0BSD
+  license: 0BSD OR CC0-1.0
   license_file: LICENCE.rst
   summary: Manipulate well-formed Roman numerals
   dev_url: https://github.com/AA-Turner/roman-numerals
