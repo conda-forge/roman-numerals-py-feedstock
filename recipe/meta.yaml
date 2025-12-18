@@ -17,7 +17,7 @@ requirements:
   host:
     - python {{ python_min }}
     - pip
-    - flit-core >=3.7
+    - setuptools >=77
   run:
     - roman-numerals ==4.1.0
     - python >={{ python_min }}
