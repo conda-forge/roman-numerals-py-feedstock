@@ -1,4 +1,4 @@
-{% set version = "3.1.0" %}
+{% set version = "4.1.0" %}
 
 package:
   name: roman-numerals-py
@@ -6,7 +6,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/r/roman-numerals-py/roman_numerals_py-{{ version }}.tar.gz
-  sha256: be4bf804f083a4ce001b5eb7e3c0862479d10f94c936f6c4e5f250aa5ff5bd2d
+  sha256: f5d7b2b4ca52dd855ef7ab8eb3590f428c0b1ea480736ce32b01fef2a5f8daf9
 
 build:
   number: 0
@@ -17,8 +17,9 @@ requirements:
   host:
     - python {{ python_min }}
     - pip
-    - flit-core >=3.7
+    - setuptools >=77
   run:
+    - roman-numerals ==4.1.0
     - python >={{ python_min }}
 
 test:
